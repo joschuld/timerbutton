@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meditation Timer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="timer-container">
+    <h1>Meditation Timer</h1>
+
+    <div class="timer-display">
+      <span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+
+    <button id="startButton" onclick="startTimer()">Start</button>
+  </div>
+  <audio id="bellSound">
+    <source src="bell.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
